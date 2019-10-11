@@ -32,25 +32,32 @@ const section4 = () => {
   button.classList.add('main-button');
   button.innerHTML = 'Submit';
 
-  form.append(labelName, inputName, labelEmail, inputName, labelPhone, inputPhone, button);
+  form.append(labelName, inputName, labelEmail, inputEmail, labelPhone, inputPhone, button);
 
   const footer = document.createElement('footer');
 
   const firstContainer = document.createElement('div');
+  firstContainer.classList.add('first-con');
 
   const socialContainer = document.createElement('div');
+  socialContainer.classList.add('social-container');
 
-  const socialAnchor = document.createElement('a');
-  socialAnchor.setAttribute('href', '#');
-  socialAnchor.classList.add('social-icon');
+  const iconArr = [];
 
-  socialContainer.append(socialAnchor, socialAnchor, socialAnchor, socialAnchor);
+  for (let i = 0; i < 4; i++) {
+    const socialAnchor = document.createElement('a');
+    socialAnchor.setAttribute('href', '#');
+    socialAnchor.classList.add('social-icon');
+    iconArr.push(socialAnchor)
+  }
+
+  socialContainer.append(...iconArr);
 
   const nav = document.createElement('nav');
   const array = ['Home', 'About', 'Menu', 'Contact'];
   const anchorArr = [];
 
-  for(let i = 0; i < 4; i++) {
+  for (let i = 0; i < 4; i++) {
     const a = document.createElement('a');
     a.setAttribute('href', '#');
     a.classList.add('nav-item');

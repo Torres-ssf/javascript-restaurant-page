@@ -1,11 +1,10 @@
 const section1 = () => {
   const header = document.createElement("header");
-  header.classList.add('section');
 
   const navbar = document.createElement("navbar");
   navbar.classList.add('navbar');
 
-  const navContainer = document.createElement("nav-container");
+  const navContainer = document.createElement("div");
   navContainer.classList.add('nav-container');
 
   const navArray = ['Logo', 'Home', 'About', 'Menu', 'Contact'];

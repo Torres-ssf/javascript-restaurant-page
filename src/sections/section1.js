@@ -80,7 +80,7 @@ const section1 = () => {
 
   container.appendChild(ul);
 
-  const section = document.createElement('div');
+  const section = document.createElement('section');
   section.classList.add('section');
   section.append(header, container);
 

@@ -1,10 +1,10 @@
 const section1 = () => {
-  const header = document.createElement("header");
+  const header = document.createElement('header');
 
-  const navbar = document.createElement("navbar");
+  const navbar = document.createElement('navbar');
   navbar.classList.add('navbar');
 
-  const navContainer = document.createElement("div");
+  const navContainer = document.createElement('div');
   navContainer.classList.add('nav-container');
 
   const navArray = ['Logo', 'Home', 'About', 'Menu', 'Contact'];
@@ -38,11 +38,11 @@ const section1 = () => {
 
   const mainParagraph = document.createElement('p');
   mainParagraph.classList.add('main-description');
-  mainParagraph.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do " +
-    "eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim" +
-    "ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut" +
-    "aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit" +
-    "in voluptate velit esse cillum dolore eu fugiat nulla pariatur.";
+  mainParagraph.innerText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ' +
+    'eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim' +
+    'ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut' +
+    'aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit' +
+    'in voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
 
   container.appendChild(mainParagraph);
 

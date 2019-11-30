@@ -73,7 +73,7 @@ const section4 = () => {
   secondContainer.classList.add('second-con');
 
   const p = document.createElement('p');
-  p.innerText = `&copy; 2019 Sushi Place`;
+  p.innerHTML = `&copy; 2019 Sushi Place`;
 
   const span = document.createElement('span');
 
@@ -81,12 +81,12 @@ const section4 = () => {
   privacyLink.setAttribute('href', '#');
   privacyLink.innerText = 'Privacy policy';
 
-  const divider = document.createElement('span');
-  span.innerHTML = ' | ';
-
   const termLink = document.createElement('a');
   termLink.setAttribute('href', '#');
   termLink.innerHTML = 'Term of Use';
+
+  const divider = document.createElement('span');
+  divider.innerHTML = ' | ';
 
   span.append(privacyLink, divider, termLink);
 

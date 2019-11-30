@@ -57,7 +57,7 @@ const section4 = () => {
   const array = ['Home', 'About', 'Menu', 'Contact'];
   const anchorArr = [];
 
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 4; i += 1) {
     const a = document.createElement('a');
     a.setAttribute('href', '#');
     a.classList.add('nav-item');

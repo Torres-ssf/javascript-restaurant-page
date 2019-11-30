@@ -52,8 +52,7 @@ const section1 = () => {
   const featuredDishes = ['Sashimi', 'Temaki', 'Salmon Carpaccio'];
   const liArray = [];
 
-  for (let i = 0; i < 3; i++) {
-
+  for (let i = 0; i < 3; i += 1) {
     const li = document.createElement('li');
     li.classList.add('featured-item');
 

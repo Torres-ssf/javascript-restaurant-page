@@ -7,7 +7,7 @@ rootContainer.append(
   sections.getSection1(),
   sections.getSection2(),
   sections.getSection3(),
-  sections.getSection4()
+  sections.getSection4(),
 );
 
 let fullPageInstance = new fullpage('#fullpage', {

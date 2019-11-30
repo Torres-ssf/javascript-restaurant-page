@@ -10,7 +10,7 @@ const section1 = () => {
   const navArray = ['Logo', 'Home', 'About', 'Menu', 'Contact'];
   const anchorArray = [];
 
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 5; i += 1) {
     const a = document.createElement('a');
     a.setAttribute('href', '#');
     a.classList.add('nav-item');
@@ -38,23 +38,23 @@ const section1 = () => {
 
   const mainParagraph = document.createElement('p');
   mainParagraph.classList.add('main-description');
-  mainParagraph.innerText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ' +
-    'eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim' +
-    'ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut' +
-    'aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit' +
-    'in voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
+  mainParagraph.innerText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do '
+    + 'eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim'
+    + 'ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut'
+    + 'aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit'
+    + 'in voluptate velit esse cillum dolore eu fugiat nulla pariatur.';
 
   container.appendChild(mainParagraph);
 
-  const ul = document.createElement('ul')
+  const ul = document.createElement('ul');
   ul.classList.add('featured-list');
 
   const featuredDishes = ['Sashimi', 'Temaki', 'Salmon Carpaccio'];
-  let liArray = [];
+  const liArray = [];
 
   for (let i = 0; i < 3; i++) {
 
-    let li = document.createElement('li');
+    const li = document.createElement('li');
     li.classList.add('featured-item');
 
     li.innerHTML = `
@@ -72,8 +72,6 @@ const section1 = () => {
   </p>`;
     liArray.push(li);
   }
-
-  console.log(liArray);
 
   ul.append(...liArray);
 

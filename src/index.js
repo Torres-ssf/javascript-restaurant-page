@@ -1,20 +1,16 @@
 import fullpage from 'fullpage.js/dist/fullpage.extensions.min';
-import sections from './modules/sections'
+import sections from './modules/sections';
 
-const rootContainer = document.getElementById("fullpage");
-
-console.log(sections);
+const rootContainer = document.getElementById('fullpage');
 
 rootContainer.append(
   sections.getSection1(),
   sections.getSection2(),
   sections.getSection3(),
-  sections.getSection4()
+  sections.getSection4(),
 );
 
 let fullPageInstance = new fullpage('#fullpage', {
   autoScrolling: true,
-  navigation: true
+  navigation: true,
 });
-
-

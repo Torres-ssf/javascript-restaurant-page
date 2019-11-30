@@ -13,12 +13,12 @@ const section3 = () => {
     'Mixed Special Sashimi',
     'Mixed Nigiri',
     'Mixed Fish Nigiri',
-    'Mixed Fish & Seafood Sashimi'
+    'Mixed Fish & Seafood Sashimi',
   ];
 
   const options = [];
 
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 5; i += 1) {
     const option = document.createElement('option');
     option.setAttribute('value', `${valueArr[i]}`);
     option.innerHTML = valueArr[i];
@@ -49,7 +49,7 @@ const section3 = () => {
     'Mixed Special Sashimi(23pcs)',
     'Mixed Nigiri(14pcs)',
     'Mixed Fish Nigiri(8pcs)',
-    'Mixed Fish & Seafood Sashimi(32pcs)'
+    'Mixed Fish & Seafood Sashimi(32pcs)',
   ];
 
   const pricesArr = [
@@ -57,12 +57,12 @@ const section3 = () => {
     '$28',
     '$25',
     '$15',
-    '$36'
+    '$36',
   ];
 
   const liArr = [];
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 10; i += 1) {
     const li = document.createElement('li');
     li.classList.add('dish-item');
 
@@ -87,13 +87,11 @@ const section3 = () => {
 
   ul.append(...liArr);
 
-  console.log(ul);
-
   const section = document.createElement('section');
   section.classList.add('section');
   section.append(header, ul);
 
   return section;
-}
+};
 
 export default section3;

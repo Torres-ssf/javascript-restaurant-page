@@ -6,7 +6,7 @@ const section4 = () => {
 
   const labelName = document.createElement('label');
   labelName.setAttribute('for', 'name');
-  labelName.innerText = 'Name'
+  labelName.innerText = 'Name';
 
   const inputName = document.createElement('input');
   inputName.setAttribute('type', 'text');
@@ -14,7 +14,7 @@ const section4 = () => {
 
   const labelEmail = document.createElement('label');
   labelEmail.setAttribute('for', 'email');
-  labelEmail.innerText = 'Email'
+  labelEmail.innerText = 'Email';
 
   const inputEmail = document.createElement('input');
   inputEmail.setAttribute('type', 'text');
@@ -22,7 +22,7 @@ const section4 = () => {
 
   const labelPhone = document.createElement('label');
   labelPhone.setAttribute('for', 'tel');
-  labelPhone.innerText = 'Phone'
+  labelPhone.innerText = 'Phone';
 
   const inputPhone = document.createElement('input');
   inputPhone.setAttribute('type', 'text');
@@ -44,11 +44,11 @@ const section4 = () => {
 
   const iconArr = [];
 
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 4; i += 1) {
     const socialAnchor = document.createElement('a');
     socialAnchor.setAttribute('href', '#');
     socialAnchor.classList.add('social-icon');
-    iconArr.push(socialAnchor)
+    iconArr.push(socialAnchor);
   }
 
   socialContainer.append(...iconArr);
@@ -73,7 +73,7 @@ const section4 = () => {
   secondContainer.classList.add('second-con');
 
   const p = document.createElement('p');
-  p.innerHTML = `&copy; 2019 Sushi Place`;
+  p.innerHTML = '&copy; 2019 Sushi Place';
 
   const span = document.createElement('span');
 
@@ -99,6 +99,6 @@ const section4 = () => {
   section.append(h1, form, footer);
 
   return section;
-}
+};
 
 export default section4;

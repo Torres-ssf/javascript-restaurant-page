@@ -33,14 +33,14 @@ const section2 = () => {
 
   const namesArr = ['Ozanan', 'Désirée', 'Beaumont'];
   const commentArr = [
-    `Enjoyed your delicious food and the evening was everything we hoped it would be. Thank you so much.`,
-    `Excellent environment, friendly service, great menu choices and really decent food and at affordable prices.`,
-    `What a lovely restaurant, good food and service and atmosphere, definitely hope to go back. The roasties were YUMMY!!!`
-  ]
+    'Enjoyed your delicious food and the evening was everything we hoped it would be. Thank you so much.',
+    'Excellent environment, friendly service, great menu choices and really decent food and at affordable prices.',
+    'What a lovely restaurant, good food and service and atmosphere, definitely hope to go back. The roasties were YUMMY!!!'
+  ];
 
   const liArr = [];
 
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 3; i += 1) {
     const li = document.createElement('li');
     li.classList.add('review-item');
     li.innerHTML = `

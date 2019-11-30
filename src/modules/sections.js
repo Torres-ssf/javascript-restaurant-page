@@ -1,7 +1,7 @@
-import section1 from './section/section1'
-import section2 from './section/section2'
-import section3 from './section/section3'
-import section4 from './section/section4'
+import section1 from './section/section1';
+import section2 from './section/section2';
+import section3 from './section/section3';
+import section4 from './section/section4';
 
 const sections = (() => {
   const getSection1 = () => section1();
@@ -17,7 +17,7 @@ const sections = (() => {
     getSection2,
     getSection3,
     getSection4,
-  }
+  };
 })();
 
 export default sections;

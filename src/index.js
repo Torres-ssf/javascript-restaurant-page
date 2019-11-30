@@ -1,4 +1,4 @@
-import fullpage from 'fullpage.js/dist/fullpage.extensions.min';  
+import fullpage from 'fullpage.js/dist/fullpage.extensions.min'; // eslint-disable-line
 import sections from './modules/sections';
 
 const rootContainer = document.getElementById('fullpage');

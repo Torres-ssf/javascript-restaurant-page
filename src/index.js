@@ -1,3 +1,4 @@
+import './css/main.css';
 import fullpage from 'fullpage.js/dist/fullpage.extensions.min'; // eslint-disable-line
 import sections from './modules/sections';
 
@@ -12,6 +13,7 @@ rootContainer.append(
 
 /* eslint-disable */
 let fullPageInstance = new fullpage('#fullpage', {
+  anchors:['page1', 'page2', 'page3', 'page4'],
   autoScrolling: true,
   navigation: true,
 });

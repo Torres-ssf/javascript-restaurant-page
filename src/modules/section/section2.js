@@ -49,11 +49,11 @@ const section2 = () => {
                 &#8220;${commentArr[i]}&#8221;
               </p>
               <div class="stars-container">
-                <img class="star-svg" src="assets/star.svg" alt="Star symbol" />
-                <img class="star-svg" src="assets/star.svg" alt="Star symbol" />
-                <img class="star-svg" src="assets/star.svg" alt="Star symbol" />
-                <img class="star-svg" src="assets/star.svg" alt="Star symbol" />
-                <img class="star-svg" src="assets/star.svg" alt="Star symbol" />
+                <img class="star-svg" src="../src/assets/star.svg" alt="Star symbol" />
+                <img class="star-svg" src="../src/assets/star.svg" alt="Star symbol" />
+                <img class="star-svg" src="../src/assets/star.svg" alt="Star symbol" />
+                <img class="star-svg" src="../src/assets/star.svg" alt="Star symbol" />
+                <img class="star-svg" src="../src/assets/star.svg" alt="Star symbol" />
               </div>`;
 
     liArr.push(li);

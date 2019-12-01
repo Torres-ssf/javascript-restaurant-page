@@ -12,7 +12,7 @@ const section1 = () => {
 
   for (let i = 0; i < 5; i += 1) {
     const a = document.createElement('a');
-    if(i !== 0) a.setAttribute('href', `#page${i}`)
+    if (i !== 0) a.setAttribute('href', `#page${i}`);
     a.classList.add('nav-item');
     a.innerHTML = navArray[i];
     anchorArray.push(a);

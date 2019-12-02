@@ -2,13 +2,13 @@
   "name": "restaurant-page",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "dev": "nodemon --watch src --exec webpack --node development",
-    "scss": "node-sass --watch scss/main.scss -o css",
-    "server": "live-server"
+    "dev": "webpack --watch src/ --mode development",
+    "scss": "node-sass --watch src/scss/main.scss -o css",
+    "server": "live-server --open=dist/"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,15 @@
   },
   "homepage": "https://github.com/Torres-ssf/restaurant-page#readme",
   "dependencies": {
+    "fullpage.js": "^3.0.8",
     "live-server": "^1.2.1",
-    "node-sass": "^4.12.0",
-    "nodemon": "^1.19.3",
+    "node-sass": "4.13.0",
     "webpack": "^4.41.0",
     "webpack-cli": "^3.3.9"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^5.0.2",
+    "style-loader": "^1.0.1"
   }
 }

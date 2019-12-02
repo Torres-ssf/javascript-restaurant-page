@@ -6,6 +6,8 @@ The objective is to practice DOM manipulation - dynamically rendering a simple r
 
 [Assignment link](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
+[Live link](https://torres-ssf.github.io/javascript-restaurant-page/)
+
 ## Installation
 
 Install NPM dependecies.

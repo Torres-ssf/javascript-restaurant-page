@@ -1,4 +1,4 @@
-# Foobar
+# Restaurant Page
 
 This project is one of the Main JavaScript curriculum projects at [Microverse](https://https://www.microverse.org/) - @microverseinc
 

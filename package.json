@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "postinstall": "webpack -p --config ./webpack.prod.config.js --progress",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress",
     "dev": "webpack --watch src/ --mode development",
     "scss": "node-sass --watch src/scss/main.scss -o css",
     "server": "live-server --open=dist/"

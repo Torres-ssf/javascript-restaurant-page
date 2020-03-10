@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
+    "start": "webpack --mode production",
     "dev": "webpack --watch src/ --mode development",
     "scss": "node-sass --watch src/scss/main.scss -o css",
     "server": "live-server --open=dist/"

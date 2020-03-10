@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --watch src/ --open",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack-dev-server --config webpack.prod.js"
   },
   "repository": {
     "type": "git",

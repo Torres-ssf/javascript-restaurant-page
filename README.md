@@ -1,10 +1,12 @@
-# Foobar
+# Restaurant Page
 
 This project is one of the Main JavaScript curriculum projects at [Microverse](https://https://www.microverse.org/) - @microverseinc
 
 The objective is to practice DOM manipulation - dynamically rendering a simple restaurant homepage! The webpage was created using only JavaScript to generate the entire contents!
 
 [Assignment link](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
+
+[Live link](https://torres-ssf.github.io/javascript-restaurant-page/)
 
 ## Installation
 

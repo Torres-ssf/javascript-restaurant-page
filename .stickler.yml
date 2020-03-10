@@ -4,4 +4,4 @@ linters:
 files:
   ignore:
       - 'dist/*'
-      - 'webpack.config.js'
+      - 'webpack*'

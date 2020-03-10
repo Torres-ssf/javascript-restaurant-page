@@ -1,14 +1,14 @@
-import './css/main.css';
-import fullpage from 'fullpage.js/dist/fullpage.extensions.min'; // eslint-disable-line
 import sections from './modules/sections';
+import './scss/main.scss';
 
+const fullpage = require('fullpage.js');
 const rootContainer = document.getElementById('fullpage');
 
 rootContainer.append(
   sections.getSection1(),
   sections.getSection2(),
   sections.getSection3(),
-  sections.getSection4() // eslint-disable-line
+  sections.getSection4(),
 );
 
 /* eslint-disable */

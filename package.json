@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode production --open",
+    "start": "webpack-dev-server --mode development --open",
     "dev": "webpack --watch src/ --mode development",
     "scss": "node-sass --watch src/scss/main.scss -o css",
     "server": "live-server --open=dist/"

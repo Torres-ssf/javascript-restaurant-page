@@ -15,7 +15,7 @@ module.exports = merge(common, {
     }),
   ],
   module: {
-    rule: [
+    rules: [
       {
         test: /\.scss$/,
         use: [

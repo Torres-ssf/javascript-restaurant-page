@@ -1,3 +1,7 @@
+import featuredImage1 from '../../assets/featured-1.jpg';
+import featuredImage2 from '../../assets/featured-2.jpg';
+import featuredImage3 from '../../assets/featured-3.jpg';
+
 const section1 = () => {
   const header = document.createElement('header');
 
@@ -53,6 +57,8 @@ const section1 = () => {
   const liArray = [];
 
   for (let i = 0; i < 3; i += 1) {
+    const img = i === 0 ? featuredImage1 : i === 1
+      ? featuredImage2 : featuredImage3;
     const li = document.createElement('li');
     li.classList.add('featured-item');
 
@@ -60,7 +66,7 @@ const section1 = () => {
     <div class="image-container">
     <img
       class="featured-image"
-      src="../src/assets/featured-${i + 1}.jpg"
+      src="${img}"
       alt="${featuredDishes[i]} image"
     />
   </div>

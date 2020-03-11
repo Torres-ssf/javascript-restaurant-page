@@ -4,12 +4,12 @@
   "engines": {
     "node": "13.7.0"
   },
-  "description": "Sushi",
+  "description": "",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js --watch src/ --open",
-    "start": "node src/server.js",
-    "build": "webpack-dev-server --config webpack.prod.js",
+    "start": "node server.js",
+    "build": "webpack --config webpack.prod.js",
     "heroku-postbuild": "echo Skip build on Heroku"
   },
   "repository": {

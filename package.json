@@ -8,7 +8,8 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --watch src/ --open",
-    "build": "webpack-dev-server --config webpack.prod.js"
+    "build": "webpack-dev-server --config webpack.prod.js",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "repository": {
     "type": "git",
@@ -40,5 +41,6 @@
     "sass-loader": "^8.0.2",
     "style-loader": "^1.1.3",
     "webpack-dev-server": "^3.10.3"
-  }
+  },
+  "heroku-run-build-script": true
 }

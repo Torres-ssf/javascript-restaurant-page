@@ -7,7 +7,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js --watch src/ --open",
+    "dev": "webpack-dev-server --config webpack.dev.js --watch src/ --open",
+    "start": "node server.js",
     "build": "webpack-dev-server --config webpack.prod.js",
     "heroku-postbuild": "echo Skip build on Heroku"
   },

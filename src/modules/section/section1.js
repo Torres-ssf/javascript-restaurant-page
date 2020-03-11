@@ -57,8 +57,17 @@ const section1 = () => {
   const liArray = [];
 
   for (let i = 0; i < 3; i += 1) {
-    const img = i === 0 ? featuredImage1 : i === 1
-      ? featuredImage2 : featuredImage3;
+
+    let img;
+
+    if(i === 0) {
+      img = featuredImage1;
+    } else if(i === 1) {
+      img = featuredImage2;
+    } else {
+      img = featuredImage3;
+    }
+
     const li = document.createElement('li');
     li.classList.add('featured-item');
 

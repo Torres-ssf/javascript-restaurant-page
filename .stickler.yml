@@ -5,3 +5,4 @@ files:
   ignore:
       - 'dist/*'
       - 'webpack*'
+      - 'server.js'

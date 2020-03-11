@@ -60,9 +60,9 @@ const section1 = () => {
 
     let img;
 
-    if(i === 0) {
+    if (i === 0) {
       img = featuredImage1;
-    } else if(i === 1) {
+    } else if (i === 1) {
       img = featuredImage2;
     } else {
       img = featuredImage3;

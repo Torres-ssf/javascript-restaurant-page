@@ -4,7 +4,7 @@
   "engines": {
     "node": "13.7.0"
   },
-  "description": "",
+  "description": "Sushi",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js --watch src/ --open",

@@ -1,42 +1,76 @@
-# Restaurant Page
+# Sushi Restaurant Demo
 
 This project is one of the Main JavaScript curriculum projects at [Microverse](https://https://www.microverse.org/) - @microverseinc
 
-The objective is to practice DOM manipulation - dynamically rendering a simple restaurant homepage! The webpage was created using only JavaScript to generate the entire contents!
+The [assignment](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) belongs to the [javascript](https://www.theodinproject.com/courses/javascript) module from [The Odin Project page](https://www.theodinproject.com/home). The objective is to practice DOM manipulation dynamically rendering a simple restaurant demo page. Almost all of the HTML was generated just by manipulating the DOM.
 
-[Assignment link](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
+## Preview
 
-[Live link](https://torres-ssf.github.io/javascript-restaurant-page/)
+![](./demo.gif)
 
-## Installation
+## Built With
 
-Install NPM dependecies.
+- Javascript, HTML5 and CSS3.
+- Node, Webpack and node-sass.
+- It also uses [fullpage](https://alvarotrigo.com/fullPage/), to create the fullscreen scrolling perspective.
+
+## Live Demo
+
+[Live Demo Link](https://ssf-restaurant-page.herokuapp.com/)
+
+## Getting Started
+
+Get a local copy cloning the repo and follow these simple steps.
+
+### Prerequisites
+
+- npm
+
+### Install
 
 ```bash
 npm install
 ```
 
-Run NPM in dev mode.
+### Usage
 
 ```bash
 npm run dev
 ```
 
-Run live-server
+### Deployment
 
 ```bash
-npm run server
+npm run build
 ```
 
-## Dependencies
-
-```
-fullpage.js
-live-server
-node-sass
-webpack
-webpack-cli
+```bash
+npm start
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Authors
+
+👤 **Sérgio Torres**
+
+- Github: [Torres-ssf](https://github.com/Torres-ssf)
+- Twitter: [@torres_ssf](https://twitter.com/torres_ssf)
+- Linkedin: [torres-ssf](https://www.linkedin.com/in/torres-ssf/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Torres-ssf/javascript-restaurant-page/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- I choose to build a sushi restaurant because I :heart: sushi.
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.

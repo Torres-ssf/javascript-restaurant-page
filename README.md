@@ -8,7 +8,6 @@ The [assignment](https://www.theodinproject.com/courses/javascript/lessons/resta
 
 ![](./demo.gif)
 
-
 ## Built With
 
 - Javascript, HTML5 and CSS3.
@@ -18,7 +17,6 @@ The [assignment](https://www.theodinproject.com/courses/javascript/lessons/resta
 ## Live Demo
 
 [Live Demo Link](https://ssf-restaurant-page.herokuapp.com/)
-
 
 ## Getting Started
 
@@ -75,4 +73,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](./LICENSE) licensed.

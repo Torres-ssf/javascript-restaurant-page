@@ -25,6 +25,7 @@ module.exports = merge(common, {
     }),
     new HtmlWebpackPlugin({
       template: './src/template.html',
+      favicon: './src/favicon.ico',
       minify: {
         removeAttributeQuotes: true,
         collapseWhitespace: true,

@@ -16,7 +16,7 @@ The [assignment](https://www.theodinproject.com/courses/javascript/lessons/resta
 
 ## Live Demo
 
-[Live Demo Link](https://ssf-restaurant-page.herokuapp.com/)
+[Live Link](https://ssf-sushiplace.netlify.com/)
 
 ## Getting Started
 

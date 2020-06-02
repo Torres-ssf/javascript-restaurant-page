@@ -2,7 +2,7 @@
 
 This project is one of the Main JavaScript curriculum projects at [Microverse](https://https://www.microverse.org/) - @microverseinc
 
-The [assignment](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) belongs to the [javascript](https://www.theodinproject.com/courses/javascript) module from [The Odin Project page](https://www.theodinproject.com/home). The objective is to practice DOM manipulation dynamically rendering a simple restaurant demo page. Almost all of the HTML was generated just by manipulating the DOM.
+The [assignment](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page) belongs to the [Javascript](https://www.theodinproject.com/courses/javascript) module from [The Odin Project page](https://www.theodinproject.com/home). The objective is to practice DOM manipulation dynamically rendering a simple restaurant demo page. Almost all of the HTML was generated just by manipulating the DOM.
 
 ## Preview
 
@@ -69,7 +69,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- I choose to build a sushi restaurant because I :heart: sushi.
+- I chose to build a sushi restaurant because I :heart: sushi.
 
 ## 📝 License
 
